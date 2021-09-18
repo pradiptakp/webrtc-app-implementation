@@ -18,7 +18,7 @@ import {io} from 'socket.io-client';
 import {AppRoute} from '../navigations/routes';
 import {v4 as uuidv4} from 'uuid';
 
-const socketIoURL = 'http://192.168.1.5:3002';
+const socketIoURL = 'http://159.65.2.199:3002';
 
 export const VideoCall: AppScreen<AppRoute.VideoCall> = ({
   route: {
